@@ -6,6 +6,7 @@ import TheWelcome from '../../components/TheWelcome.vue';
 
 <script>
 import routerHelper from '@/assets/js/global';
+import Carrossel from '@/components/template/carrossel/Carrossel.vue';
 
 export default {
   methods: {
@@ -18,6 +19,9 @@ export default {
 
 <template>
   <Header />
+  <div class="carrossel-style">
+    <Carrossel />
+  </div>
   <main>
     <div @click="click">
       <TheWelcome />
@@ -34,5 +38,10 @@ header {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel-style{
+  max-width: 100%;
+  display: block;
 }
 </style>
