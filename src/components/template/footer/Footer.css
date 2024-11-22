@@ -1,0 +1,69 @@
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: rgb(44, 11, 11);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  background: #f8f8f8;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    font-size: 0.5em;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    font-size: 0.5em;
+    padding: 0.4rem;
+  }
+}
+
+/* Responsividade do footer */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.8em;
+    /* Reduz o tamanho da fonte para telas menores */
+    padding: 0.8rem;
+    /* Reduz o padding para telas menores */
+  }
+
+  .footer {
+    font-size: 0.5em;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    font-size: 0.5em;
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.5em;
+    padding: 0.4rem;
+  }
+}

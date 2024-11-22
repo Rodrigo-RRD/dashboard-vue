@@ -1,0 +1,14 @@
+form {
+    width: 400px;
+    height: 300px;
+}
+
+button {
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    border-radius: 20px;
+    margin-bottom: 300px;
+}
